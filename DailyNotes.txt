@@ -1,0 +1,54 @@
+Language:
+=========
+
+		English:communication
+
+
+
+JAVA:
+=====
+	Programming Language:Communication with machines
+
+
+Programming Language
+
+		POP										OOP
+		B,BCPL,COBOL,PHOTON,C..         	c++,java,python,.net....Smalltalk
+
+
+								1)Performance		inheritance,polymorphisam	
+								2)Security			encapsulation,abstraction
+
+
+1993			ORACLE
+WHY JAVA?sun micro system-->James gosling
+=========
+	1995
+			
+	simple
+	
+	
+	
+	java 20   java1.8
+	
+			1)Platform independent 
+			2)Garbage Collection  -->garbage collector 
+	
+	ORacle 											Microsoft
+WORA		windows 					
+
+		.java 										.net
+
+
+2 gb
+
+MCQ LINK:
+===========
+
+http://www.maamu.itgo.com/other/javaquiz1.htm
+
+
+
+
+
+
