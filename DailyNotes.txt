@@ -23,8 +23,8 @@ Programming Language
 1993			ORACLE
 WHY JAVA?sun micro system-->James gosling
 =========
-	1995
-			
+	1996 
+			JDK
 	simple
 	
 	
@@ -39,7 +39,10 @@ WORA		windows
 
 		.java 										.net
 
-
+sandeep				rajashekar			pooja 
+windows 11				linux			mac
+	.net app
+WORA
 2 gb
 
 MCQ LINK:
@@ -50,5 +53,70 @@ http://www.maamu.itgo.com/other/javaquiz1.htm
 
 
 
+Java installation and path setup
+
+https://www.javatpoint.com/javafx-how-to-install-java
+
+java -version.
+
+		java version "1.8.0_281"
+		Java(TM) SE Runtime Environment (build 1.8.0_281-b09)
+		Java HotSpot(TM) 64-Bit Server VM (build 25.281-b09, mixed mode)
+
+javac -version
+javac 1.8.0_281
 
 
+
+welcome to java 
+
+
+.java	.html    .py
+
+
+telugu  alphabets 56 		26
+
+33 python
+
+keywords 53   lower case 
+
+
+Welcome Example:
+=================
+
+class Welcome
+{
+	
+public static void main(String args[])
+{
+	
+	System.out.println("welcome to java");
+	
+	
+}	
+	
+	
+}
+
+//jdk-->jre-->JVM
+//machine language --->0's 1's / binary /byte 
+
+//translation-->translator
+
+//compailation-->compiler   user understandable lang-->machine understandable lang
+
+//source code -->byte code 
+
+// .java -->.class-(JVM)
+
+
+//javac filename.java
+
+
+
+Eclipse :
+============
+https://www.eclipse.org/downloads/packages/release/2020-12/r
+
+
+Eclipse IDE for Enterprise Java Developers
