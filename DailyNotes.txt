@@ -110,7 +110,7 @@ public static void main(String args[])
 // .java -->.class-(JVM)
 
 
-//javac filename.java
+//javac filename.java--->.class-->jvm-->output
 
 
 
@@ -120,3 +120,86 @@ https://www.eclipse.org/downloads/packages/release/2020-12/r
 
 
 Eclipse IDE for Enterprise Java Developers
+
+
+
+Identifiers:-
+==============
+ any name in java will call it as identifier
+ 
+	classname,method,variable,interface,.....
+ 
+ 
+			a-z
+			A-Z
+			0-9
+			$
+			_
+ 
+ variables:
+ ===========
+ contactname contactnumber
+ 
+ 
+	sandeeptrainer		6323273672323
+
+
+		datatype varname=value;
+		
+		
+				datatype varname;//declaration of variable
+				
+				varname=value;//intialization of variable
+				
+				
+	10 keywrods 			
+
+
+
+datatype		-->PDT      NPDT(string,array,class....)
+
+	contactnum,age,bankaccntnum,aadhar num--->numeric data (numbers)
+	
+	address,name,fname,--->characters
+	
+	salary->12.54 lpa,marks->9.5,balance 2000.50  -->decimal value
+
+
+8 PDT 				
+
+byte 		1 byte --8bits	-128 to 127				 long aadharno=89189382393298
+short		2 bytes			-32768 to 32767
+int 		4 bytes			-2147583648 to 2147483647
+long		8 bytes			-2 power 63 to 2 power 63 -1 	long age=30; byte age1=29;
+
+float		4 bytes			2000.5498779979833f
+double		8 bytes					
+
+char 		2 bytes			'a'	 c-->english-->ASCII  java-->18 international lang	M/F  'M'
+boolean		1 bit    						 		 true-1,false-0
+
+
+
+datatype varname=value;
+
+
+byte age=30;
+
+		2 types
+		
+		1)local variable  :variable inside the  method
+		2)global variable  :variable outside the method 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
