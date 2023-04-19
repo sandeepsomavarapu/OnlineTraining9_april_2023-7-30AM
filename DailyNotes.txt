@@ -144,7 +144,7 @@ Identifiers:-
 	sandeeptrainer		6323273672323
 
 
-		datatype varname=value;
+		datatype varname=value;//static typing
 		
 		
 				datatype varname;//declaration of variable
@@ -188,16 +188,69 @@ byte age=30;
 		2 types
 		
 		1)local variable  :variable inside the  method
+		
 		2)global variable  :variable outside the method 
 		
+						1)instance 		2)static 
+		
+syntax:
+========
+	static	int countryCode=91;
+
+			int eid=1212;
+
+Memory
+======
+	static properties will get memory space only once  at the time of class loading into JVM
+	instance properties will get memory space for every object creation
+	
+				class A
+				
+				Object : classname objname=new classname();
+				
+							A obj=new A();
+	
+Access:
+=======
+			static properties can be accessed by using classname
+			instance properties can be accessed by using objeref 
+
+
+Usage :
+=======
+		to represent common data will go static like countryname,school name,clg name.....
+		to represent unique data will go instance like eid,aadhar,pan,contact......
+		
+	
+
+
+eclipse,intellji,myeclipse,netbeans.....vscode
 		
 		
 		
 		
 		
+public class Welcome {
+	static int countryCode = 91;//static and global
+	int empId=111;				//instance and global
+
+	public static void main(String[] args) {
+		// main-->ctrl+space-->enter
+
+		int result=230;//local variables
 		
+		System.out.println("welcome to java eclipse");
 		
+		System.out.println(result);
 		
+		System.out.println(Welcome.countryCode);
+		//classname objname=new classname();
+		Welcome wel=new Welcome();//object 
+		
+		System.out.println(wel.empId);
+	}
+}// ctrl+shift+f
+
 		
 		
 		
